@@ -2,7 +2,7 @@ const connection = require("../config/connection.js");
 
 
 function printQuestionMarks(num) {
-    const arr = [];
+    let arr = [];
     for (let i = 0; i < num; i++) {
         arr.push("?");
     }
@@ -10,7 +10,7 @@ function printQuestionMarks(num) {
 }
 
 function objToSql(ob) {
-    const arr = [];
+    let arr = [];
     for (let key in ob) {
         const value = ob[key];
         if (Object.hasOwnProperty.call(ob, key)) {
