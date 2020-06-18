@@ -6,5 +6,5 @@ Users can input the name of a burger they'd like to eat, which subsequently appe
 ## Link to Application
 Click [here](https://burger-ville.herokuapp.com/burgers) to see the app!
 
-## Screenshots of Application
+## Screenshot of Application
 ![BurgerVilleSS](/public/assets/img/ss.png)
